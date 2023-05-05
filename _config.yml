@@ -1,6 +1,7 @@
 # Site settings
 title: Digital health labs
-description: Your Site Description
+logo: image
+description: Digital Labs ...
 theme: jekyll-theme-minimal
 
 # Build settings

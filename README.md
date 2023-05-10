@@ -10,30 +10,27 @@
     cd compelling-works.github.io
 
 
-> Required verions
+> Required versions
 
-    [Ruby](https://www.ruby-lang.org/en/downloads/) 2.5.0 and above
-    [RubyGem](https://rubygems.org/pages/download)
+    Ruby 2.5.0 and above
 
- Check your ruby version with `ruby -v` & RubyGem with `Gem -v` 
+    RubyGem
+
+ Check your ruby version with `ruby -v` & RubyGem with `Gem -v`. Read more on [Ruby](https://www.ruby-lang.org/en/downloads/) & [RubyGem](https://rubygems.org/pages/download)
 
 
 > Jekyll installation
-  
-    Jekyll is written is ruby, read more on [jekyll](https://jekyllrb.com/docs/step-by-step/01-setup/)
+
+    gem install jekyll bundler
 
     jekyll --version/ jekyll -v
 
+ Jekyll is written is ruby, read more on [jekyll](https://jekyllrb.com/docs/step-by-step/01-setup/)
+      
+ Run `bundle install` if any changes are made to the Gemfile. Read more [Ruby101](https://jekyllrb.com/docs/ruby-101/)
 
-> With ruby and all requirements installed. install jekyll in terminal:
-  
-    gem install jekyll bundler
-
-
-Run `bundle install` if any changes are made to the Gemfile. Read more[Ruby101](https://jekyllrb.com/docs/ruby-101/)
-
-> To build the site and make it available on a local server
+> To build the site and make it available on a local server:
     
     bundle exec jekyll serve
 
-    Browse to http://localhost:4000
+ Browse to http://localhost:4000

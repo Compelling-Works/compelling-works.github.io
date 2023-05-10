@@ -12,7 +12,7 @@
 
 > ruby 2.5.0 and above
 
-> check ruby version with ruby -v [Ruby](https://www.ruby-lang.org/en/downloads/) & RubyGem with Gem -v [RubyGem](https://rubygems.org/pages/download)
+ check ruby version with `ruby -v` [Ruby](https://www.ruby-lang.org/en/downloads/) & RubyGem with `Gem -v` [RubyGem](https://rubygems.org/pages/download)
 
 ## jekyll installation
 
@@ -22,10 +22,10 @@ with ruby and all requirements installed. install jekyll in terminal
 
 > gem install jekyll bundler
 
-run `bundle install` if any changes are made to the Gemfile
+Run `bundle install` if any changes are made to the Gemfile
 
 To build the site and make it available on a local server
 
 > bundle exec jekyll serve
 >
-> Browse to http://localhost:4000
+> `Browse to http://localhost:4000`

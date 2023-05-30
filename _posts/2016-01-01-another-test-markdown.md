@@ -300,7 +300,7 @@ Spotify Podcast:
 
 ![](https://open.spotify.com/episode/31AxcwYdjsFtStds5JVWbT)
 
-## Special media links
+## Special media 
 
 ![]( {{ "/assets/devstories.webm" | relative_url }} )
 
